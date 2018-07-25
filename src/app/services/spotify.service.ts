@@ -13,7 +13,7 @@ export class SpotifyService {
     const url = `https://api.spotify.com/v1/${query}`;
 
     const headers = new HttpHeaders({
-      'Authorization': 'Bearer BQA7cQHbVUz2ZItF07_cyDXj75CBb3j-pPQ0-Y4aD1Fg0Bed1IwoaHXgZsXJwmzquDkv5uCUf_vq9nZEADE'
+      'Authorization': 'Bearer BQDNt8Om2uen192i0mAu1RfbY6iEqtBV_BEb91TpF_928sUEYsTG09zuoYfSSql2ojLHDI1NdGW84BdkMCs'
     });
 
     return this.http.get(url, { headers });
